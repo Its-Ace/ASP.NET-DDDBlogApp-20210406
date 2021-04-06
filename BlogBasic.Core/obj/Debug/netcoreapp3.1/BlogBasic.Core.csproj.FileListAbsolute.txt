@@ -1,0 +1,7 @@
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.deps.json
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.dll
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.pdb
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.AssemblyInfoInputs.cache
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.AssemblyInfo.cs
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.dll
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.pdb
