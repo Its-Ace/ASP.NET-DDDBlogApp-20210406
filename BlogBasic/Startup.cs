@@ -27,8 +27,8 @@ namespace BlogBasic
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<BlogContext>(options => options.UseInMemoryDatabase(databaseName: "sdt_class_blogdemo"));
-            
+            //services.AddDbContext<BlogContext>(options => options.UseInMemoryDatabase(databaseName: "sdt_class_blogdemo"));
+            services.AddDbContext<BlogContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
             services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
         }
 

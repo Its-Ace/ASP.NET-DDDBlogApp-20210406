@@ -12,7 +12,7 @@ namespace BlogBasic.InfrastrutureCore.Context
 
         public BlogContext(DbContextOptions<BlogContext> options) : base(options)
         {
-            SeedSomeData();
+            //SeedSomeData();
         }
 
         private void SeedSomeData()
