@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Blog";
+}
+@model List<Blog>
+
+<h1>Blog</h1>
+
+<h2>This is SP2021.SDT class first page in .net core</h2>
+
+<p>
+    @foreach (var blog in Model)
+    {
+        <div>@blog.Id   @Html.Raw(blog.Name) @blog.Description     <a href="/portal/editblog/@blog.Id">Edit</a> <a href="/portal/deleteblog/@blog.Id">Delete</a></div>
+    }
+</p>
+
+
+
+<p>
+    <a href="/portal/createblog">Create Blog</a>
+</p>
+<p>
+    <a href="/portal/editblog">Edit Blog</a>
+</p>
+<p>
+    <a href="/portal/deleteblog">Delete Blog</a>
+</p>

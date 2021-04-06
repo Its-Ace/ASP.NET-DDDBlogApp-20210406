@@ -5,3 +5,13 @@ G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\
 G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.AssemblyInfo.cs
 G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.dll
 G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.pdb
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.deps.json
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.dll
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\bin\Debug\netcoreapp3.1\BlogBasic.Core.pdb
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.csprojAssemblyReference.cache
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.AssemblyInfoInputs.cache
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.AssemblyInfo.cs
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.csproj.CoreCompileInputs.cache
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.dll
+D:\5th Semester\Sir SDt repo\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.pdb
+G:\Phd\01. Courses\16. SDT - FA2020\C#-projects\WebApp\BlogBasic\BlogBasic.Core\obj\Debug\netcoreapp3.1\BlogBasic.Core.csprojAssemblyReference.cache

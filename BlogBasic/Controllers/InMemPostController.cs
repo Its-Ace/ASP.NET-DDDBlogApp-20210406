@@ -37,7 +37,8 @@ namespace BlogBasic.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Post post)
         {
-            post.Id = _blogContext.Posts.Max(x => x.Id) + 1;
+            //post.Id = _blogContext.Posts.Max(x => x.Id) + 1;
+            //post.Id = 1000;
             post.TimeStamp = DateTime.UtcNow;
             _blogContext.Posts.Add(post);
             _blogContext.SaveChanges();

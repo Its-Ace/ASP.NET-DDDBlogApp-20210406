@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@model List<Post>
+
+<h1>Blog</h1>
+
+<h2>This is SP2021.SDT class first page in .net core</h2>
+<p>
+    <a href="/post/create">Create Blog</a>
+</p>
+<p>
+    @foreach (var post in Model)
+    {
+        <div>
+            @post.Id   
+            @Html.Raw(post.Name) 
+            @post.Description     
+            <a href="/post/edit/@post.Id">Edit</a> 
+            <a href="/post/delete/@post.Id">Delete</a>
+        </div>
+    }
+</p>
+
+
+ 
