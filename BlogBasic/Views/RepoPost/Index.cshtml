@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@using  BlogBasic.Core.Models
+@model List<Post>
+
+<h1>I will display the list of Posts using REPOSITORY pattern: </h1>
+<br />
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New Post</a>
+</p>
+
+@*@foreach (var post in Model)
+    {
+        <h3><a href="/post/edit/@post.Id">@post.Id  </a></h3>
+        <h3>@post.PostName </h3>
+        <h3>@post.PostDescription </h3>
+        <h3>@post.Content</h3>
+
+        <a asp-action="Edit" asp-route-id="@post.Id">Edit</a>
+        <br />
+
+        <a asp-action="Delete" asp-route-id="@post.Id">Delete</a>
+
+        <br />
+        <br />
+    }*@
+
+<br />
+<div class="row" style="height:150px;">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <a href="/repopost/edit/@item.Id">@item.Id  </a>
+
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger float-right">
+                <i class="fa fa-trash" aria-hidden="true">Delete </i>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info float-right">
+                <i class="fa fa-trash" aria-hidden="true">Edit </i>
+            </a>
+
+
+        </div>
+        <div class="col-md-4">
+            @item.PostName
+        </div>
+        <div class="col-md-5">
+            @item.PostDescription
+        </div>
+    }
+</div>

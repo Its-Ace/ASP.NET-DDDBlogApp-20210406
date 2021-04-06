@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@using  BlogBasic.Core.Models
+@model List<Thread>
+
+<h2>This is Thread Listing Page</h2>
+<br />
+<p>
+    <a class="btn btn-primary" asp-action="Create">Create New Thread</a>
+</p>
+<br />
+<div class="row" style="height:150px;">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <a href="/post/edit/@item.Id">@item.Id  </a>
+
+            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger float-right">
+                <i class="fa fa-trash" aria-hidden="true">Delete </i>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info float-right">
+                <i class="fa fa-trash" aria-hidden="true">Edit </i>
+            </a>
+
+
+        </div>
+        <div class="col-md-4">
+            @item.ThreadName
+        </div>
+        <div class="col-md-5">
+            @item.ThreadDescription
+        </div>
+    }
+</div>

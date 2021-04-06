@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Context\**" />
+    <Content Remove="Context\**" />
+    <EmbeddedResource Remove="Context\**" />
+    <None Remove="Context\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\BookAController.cs" />
+    <Compile Remove="Controllers\BookBController.cs" />
+    <Compile Remove="Controllers\BookClientController.cs" />
+    <Compile Remove="Models\Post.cs" />
+    <Compile Remove="Models\Thread.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogBasic.Core\BlogBasic.Core.csproj" />
+    <ProjectReference Include="..\BlogBasic.InfrastrutureCore\BlogBasic.InfrastrutureCore.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
